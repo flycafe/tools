@@ -8,6 +8,7 @@
 
 import os
 
+#replace a line in file
 def f_replace_line(src_file,target_line,new_line):
         bak_file=src_file + '.bk'
         os.system('cp -p ' + src_file + ' ' + bak_file)
